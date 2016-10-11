@@ -99,6 +99,11 @@ function quickSort(array, sortType, objectKey) {
   return array;
 }
 
+
+/**
+ * 使用示例
+ */
+
 var arr = [3, 51, 7, 15, 4, 9, 12, 33, 2, 9, 11];
 console.log(quickSort(arr));  // 默认，从小到大排序
 console.log(quickSort(arr, 'desc'));  // 从大到小排序
